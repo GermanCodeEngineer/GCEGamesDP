@@ -1,0 +1,1 @@
+ride @s mount @e[type=horse,sort=nearest,limit=1]
