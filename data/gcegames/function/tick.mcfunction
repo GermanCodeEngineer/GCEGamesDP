@@ -1,1 +1,2 @@
-execute as @e[type=item_display,tag=gcegames_car_model] run function gcegames:car/rotate
+execute as @e[type=item_display,tag=gcegames.car_model] at @s if entity @a[distance=..3] run function gcegames:car/tick_model
+#execute as @e[type=armor_stand,tag=gcegames.trackplacer] at @s run function gcegames:trackplacer/run

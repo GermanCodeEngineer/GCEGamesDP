@@ -1,5 +1,5 @@
 summon horse ~ ~ ~ {\
-    Tags: ["gcegames_entity", "gcegames_car", "gcegames_car_horse"],\
+    Tags: ["gcegames.entity", "gcegames.car", "gcegames.car_horse"],\
     NoAI:1b,Invulnerable:1b,\
     Tame:1b,Silent:1b,PersistenceRequired:1b,\
     attributes:[{id:"minecraft:scale",base:0.35}],\
@@ -8,7 +8,7 @@ summon horse ~ ~ ~ {\
     active_effects:[{id:"minecraft:invisibility",amplifier:1,duration:-1,show_particles:0b}],\
     Passengers:[{\
         id:"minecraft:item_display",\
-        Tags: ["gcegames_entity", "gcegames_car", "gcegames_car_model"],\
+        Tags: ["gcegames.entity", "gcegames.car", "gcegames.car_model"],\
         item: {id:"minecraft:barrier",count:1,components:{"minecraft:item_model":"gcegames:car"}},\
         billboard: "fixed",\
         transformation:{\
