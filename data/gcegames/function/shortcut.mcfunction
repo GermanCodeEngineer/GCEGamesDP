@@ -1,3 +1,5 @@
 kill @e[type=minecraft:armor_stand]
-function gcegames:trackplacer/clear_area
-execute as @e[type=armor_stand,tag=gcegames.trackplacer] at @s run function gcegames:trackplacer/run
+#fill -309 66 208 -298 68 214 air
+#execute positioned -306 64 214 run function gcegames:trackplacer/summon
+fill -287 67 202 -295 67 209 air
+execute positioned -289 64 201 run function gcegames:trackplacer/summon
