@@ -10,4 +10,4 @@ execute if block ~ ~ ~ light_gray_glazed_terracotta[facing=north] run teleport @
 execute if block ~ ~ ~ light_gray_glazed_terracotta[facing=east] run teleport @s ~ ~-1 ~
 execute if block ~ ~ ~ light_gray_glazed_terracotta[facing=south] run teleport @s ~ ~1 ~
 execute if block ~ ~ ~ light_gray_glazed_terracotta[facing=west] run teleport @s ~ ~1 ~
-execute unless block ~ ~ ~ magenta_glazed_terracotta unless block ~ ~ ~ lime_glazed_terracotta unless block ~ ~ ~ light_gray_glazed_terracotta run function gcegames:trackplacer/kill
+execute unless block ~ ~ ~ magenta_glazed_terracotta unless block ~ ~ ~ lime_glazed_terracotta unless block ~ ~ ~ light_gray_glazed_terracotta run kill @s
