@@ -1,0 +1,1 @@
+give @s barrier[item_model="gcegames:coin"]

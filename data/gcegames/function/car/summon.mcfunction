@@ -2,7 +2,10 @@ summon horse ~ ~ ~ {\
     Tags: ["gcegames.entity", "gcegames.car", "gcegames.car_horse"],\
     NoAI:1b,Invulnerable:1b,\
     Tame:1b,Silent:1b,PersistenceRequired:1b,\
-    attributes:[{id:"minecraft:scale",base:0.35}],\
+    attributes:[\
+        {id:"minecraft:scale",base:0.35},\
+        {id:"minecraft:movement_speed",base:0.3d},\
+    ],\
     DeathLootTable:"minecraft:empty",\
     SaddleItem:{id:"minecraft:saddle",count:1},\
     active_effects:[{id:"minecraft:invisibility",amplifier:1,duration:-1,show_particles:0b}],\

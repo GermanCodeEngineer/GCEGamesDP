@@ -35,7 +35,8 @@ def write_diagonal_directions():
         right = DIRECTION_NVS[direction_b]
         forward = left + right
         points = [
-          #(- 2 * left + 3 * right + 1 * NV_UP, "crimson_fence_gate"),
+          (- 1 * left + 3 * right + 1 * NV_UP, "crimson_fence"),
+          (- 2 * left + 3 * right + 1 * NV_UP, "crimson_fence"),
           (- 2 * left + 3 * right, "gray_concrete"),
           (- 1 * left + 3 * right, "gray_concrete"),
           (- 1 * left + 2 * right, "gray_concrete"),
@@ -47,7 +48,8 @@ def write_diagonal_directions():
           (  2 * left - 1 * right, "gray_concrete"),
           (  3 * left - 1 * right, "gray_concrete"),
           (  3 * left - 2 * right, "gray_concrete"),
-          #(  3 * left - 2 * right + 1 * NV_UP, "crimson_fence_gate"),
+          (  3 * left - 2 * right + 1 * NV_UP, "crimson_fence"),
+          (  3 * left - 1 * right + 1 * NV_UP, "crimson_fence"),
         ]
         points_code = ""
         for point, block in points:
