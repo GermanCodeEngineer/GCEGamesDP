@@ -4,7 +4,7 @@ summon horse ~ ~ ~ {\
     Tame:1b,Silent:1b,PersistenceRequired:1b,\
     attributes:[\
         {id:"minecraft:scale",base:0.35},\
-        {id:"minecraft:movement_speed",base:0.3d},\
+        {id:"minecraft:movement_speed",base:0.2d},\
     ],\
     DeathLootTable:"minecraft:empty",\
     SaddleItem:{id:"minecraft:saddle",count:1},\
@@ -12,7 +12,7 @@ summon horse ~ ~ ~ {\
     Passengers:[{\
         id:"minecraft:item_display",\
         Tags: ["gcegames.entity", "gcegames.car", "gcegames.car_model"],\
-        item: {id:"minecraft:barrier",count:1,components:{"minecraft:item_model":"gcegames:car"}},\
+        item: {id:"minecraft:paper",count:1,components:{"minecraft:item_model":"gcegames:car"}},\
         billboard: "fixed",\
         transformation:{\
             left_rotation:[0f,1f,0f,1f],right_rotation:[0f,0f,0f,1f],\

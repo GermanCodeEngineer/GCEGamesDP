@@ -1,1 +1,1 @@
-execute if entity @s[tag=gcegames.coin] as @p run function gcegames:coin/give
+execute if entity @s[tag=gcegames.coin] run return run function gcegames:coin/collect
