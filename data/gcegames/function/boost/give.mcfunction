@@ -1,0 +1,1 @@
+give @s paper[item_model="gcegames:boost"]
