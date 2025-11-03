@@ -6,3 +6,4 @@ execute as @a at @s positioned ~-.75 ~-1 ~-.75 if entity @e[type=item_display,ta
 # Dev
 execute as @e[type=armor_stand,tag=gcegames.trackplacer] at @s run function gcegames:trackplacer/run
 execute as @e[type=shulker] at @s run function gcegames:summon_shortcut
+kill @e[type=item,nbt={Item:{id:"minecraft:shulker_shell"}}]
