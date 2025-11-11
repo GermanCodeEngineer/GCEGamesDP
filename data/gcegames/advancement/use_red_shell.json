@@ -1,18 +1,18 @@
 {
-    "criteria": {
-      "using_item": {
-        "trigger": "minecraft:using_item",
-        "conditions": {
-          "item": {
-            "items": "minecraft:paper",
-            "predicates": {
-              "minecraft:custom_data": "{gcegames.red_shell:true}"
-            }
+  "criteria": {
+    "using_item": {
+      "trigger": "minecraft:shot_crossbow",
+      "conditions": {
+        "item": {
+          "items": "minecraft:crossbow",
+          "predicates": {
+            "minecraft:custom_data": "{gcegames.red_shell:true}"
           }
         }
       }
-    },
-    "rewards": {
-      "function": "gcegames:red_shell/use"
     }
+  },
+  "rewards": {
+    "function": "gcegames:red_shell/use"
   }
+}

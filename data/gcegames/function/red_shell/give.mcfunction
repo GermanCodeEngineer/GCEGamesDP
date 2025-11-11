@@ -1,7 +1,7 @@
-give @s paper[\
-    item_model="gcegames:red_shell",\
+#    item_model="gcegames:red_shell",
+give @s crossbow[\
     custom_data={gcegames.red_shell:true},\
-    consumable={\
-        consume_seconds:0.1,has_consume_particles:false,\
-    }\
+    charged_projectiles=[{id:"minecraft:firework_rocket",count:1,components:{\
+        "minecraft:fireworks":{flight_duration:3}\
+    }}]\
 ]
