@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "using_item": {
+    "x": {
       "trigger": "minecraft:shot_crossbow",
       "conditions": {
         "item": {

@@ -4,4 +4,4 @@ give @s crossbow[\
     charged_projectiles=[{id:"minecraft:firework_rocket",count:1,components:{\
         "minecraft:fireworks":{flight_duration:3}\
     }}]\
-]
+] 5

@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "x": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity": {
+                        "type": "minecraft:wind_charge"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "gcegames:red_shell/hit_player"
+    }
+}

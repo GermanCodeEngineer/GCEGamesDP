@@ -3,5 +3,6 @@ give @s paper[\
     custom_data={gcegames.boost:true},\
     consumable={\
         consume_seconds:0.1,has_consume_particles:false,\
+        sound:intentionally_empty\
     }\
 ]

@@ -4,3 +4,4 @@ tag @n[type=firework_rocket] add gcegames.red_shell
 particle sweep_attack ~ ~1 ~ 0 0 0 0.5 20
 playsound minecraft:entity.player.attack.sweep master @s ~ ~ ~ 1
 advancement revoke @s only gcegames:use_red_shell
+scoreboard players set @s gcegames.shell_immunity_tick 60
