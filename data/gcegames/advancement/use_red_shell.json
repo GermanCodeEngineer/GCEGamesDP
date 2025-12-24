@@ -5,9 +5,7 @@
       "conditions": {
         "item": {
           "items": "minecraft:crossbow",
-          "predicates": {
-            "minecraft:custom_data": "{gcegames.red_shell:true}"
-          }
+          "__comment__": "not really strict enough, temporary solution"
         }
       }
     }

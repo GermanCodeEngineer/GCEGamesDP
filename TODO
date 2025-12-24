@@ -1,7 +1,8 @@
 TODO:
-    - finish starting room
+    - [DONE]finish starting room
     - [DONE]make start, round, win system
-    - add items to track
+    - [DONE]make item box collectable
+    - [DONE]add items to track
     - make red shell work somehow
     - some sort of safety when falling from street
     - improve landscape, add buildings

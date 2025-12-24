@@ -1,0 +1,14 @@
+execute positioned -92 73 221 positioned ~ ~0.5 ~ run function gcegames:item_box/spawner/summon
+execute positioned -94 73 221 positioned ~ ~0.5 ~ run function gcegames:item_box/spawner/summon
+execute positioned -67 76 268 positioned ~ ~0.5 ~ run function gcegames:item_box/spawner/summon
+execute positioned -67 76 270 positioned ~ ~0.5 ~ run function gcegames:item_box/spawner/summon
+execute positioned -37 75 249 positioned ~ ~0.5 ~ run function gcegames:item_box/spawner/summon
+execute positioned -38 64 181 positioned ~ ~0.5 ~ run function gcegames:item_box/spawner/summon
+execute positioned -26 63 166 positioned ~ ~0.5 ~ run function gcegames:item_box/spawner/summon
+execute positioned -1 78 158 positioned ~ ~0.5 ~ run function gcegames:item_box/spawner/summon
+execute positioned 27 92 160 positioned ~ ~0.5 ~ run function gcegames:item_box/spawner/summon
+execute positioned 0 82 188 positioned ~ ~0.5 ~ run function gcegames:item_box/spawner/summon
+execute positioned -21 72 155 positioned ~ ~0.5 ~ run function gcegames:item_box/spawner/summon
+execute positioned -23 72 155 positioned ~ ~0.5 ~ run function gcegames:item_box/spawner/summon
+execute positioned -98 61 161 positioned ~ ~0.5 ~ run function gcegames:item_box/spawner/summon
+execute positioned -96 61 161 positioned ~ ~0.5 ~ run function gcegames:item_box/spawner/summon

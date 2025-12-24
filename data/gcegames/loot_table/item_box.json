@@ -8,16 +8,43 @@
           "name": "paper",
           "functions": [{
             "function": "minecraft:set_components",
-            "components": {"minecraft:item_model": "gcegames:boost"}
-          }],
+            "components": {
+              "item_model": "gcegames:boost",
+              "custom_data": {"gcegames.boost":true},
+              "consumable": {
+                "consume_seconds":0.1,"has_consume_particles":false,
+                "sound":"intentionally_empty"
+              }
+            }
+          }]
         },
         {
           "type": "minecraft:item",
           "name": "paper",
           "functions": [{
             "function": "minecraft:set_components",
-            "components": {"minecraft:item_model": "gcegames:coin"}
+            "components": {
+              "item_model": "gcegames:coin",
+              "custom_data": {"gcegames.coin":true}
+            }
           }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "crossbow",
+          "functions": [{
+            "function": "minecraft:set_components",
+            "components": {
+              "custom_data": {"gcegames:red_shell": true},
+              "charged_projectiles": [{"id":"minecraft:firework_rocket","count":1,"components":{
+                "minecraft:fireworks":{"flight_duration":3}
+              }}]
+            }
+          }]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 3
         }
       ]
     }
